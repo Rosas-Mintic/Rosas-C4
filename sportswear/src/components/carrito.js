@@ -2,6 +2,7 @@ import JsonData from "../data/carrito.json";
 import '../styles/carrito.css';
 import { Fragment } from "react";
 import { BarraNavegacionClientes } from "./navBar";
+import { ListaProductosClientes } from './listaProductos';
 
 export function Carrito() {
     //leyendo archivo json carrito
@@ -18,9 +19,16 @@ export function Carrito() {
             )
         }
     )
-
+/*
+    var datos= DisplayData
+    datos.forEach((item, index, arr) => {console.log(item)
+        
+    });
+    
+*/
     return (
         <Fragment>
+            
             <BarraNavegacionClientes />
             <div class="container">
                 <h1>Carrito de compras</h1>
@@ -43,8 +51,8 @@ export function Carrito() {
                     </table>
                 </div>
                 <div>
-                    <button>Finalizar compra</button>
-                    <button>Cancelar</button>
+                    <button onClick={finalizarCompra}>Finalizar compra</button>
+                    <button onClick={cancelar}>Cancelar</button>
                 </div>
             </div>
 
@@ -53,4 +61,12 @@ export function Carrito() {
 
 }
 
+function finalizarCompra(){
+    alert("Gracias por tu compra - redireccionando a pasarela de pagos");    
+}
+
+function cancelar(){
+    alert("compra cancelada")
+
+}
 
