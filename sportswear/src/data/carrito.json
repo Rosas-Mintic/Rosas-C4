@@ -1,0 +1,30 @@
+[
+  {
+    "imagen": "https://litb-cgis.rightinthebox.com/images/640x640/202202/bps/product/inc/zidtcg1644818217857.jpg?fmt=webp&v=1",
+    "cantidad": 2,
+    "producto": "Pantaloneta",
+    "valor": 60000,
+    "total": 120000
+  },
+  {
+    "imagen": "https://contents.mediadecathlon.com/p2073294/k$6ceaf1a08b9ded874c333ac0c7b4e745/sq/8544001.jpg?format=auto&f=800x0",
+    "cantidad": 1,
+    "producto": "Pantalon",
+    "valor": 80000,
+    "total": 80000
+  },
+  {
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4T2Uo0nbBxxhdgFDdxMKOqYLIetGXtSs4kA&usqp=CAU",
+    "cantidad": 1,
+    "producto": "Buzo",
+    "valor": 120000,
+    "total": 120000
+  },
+  {
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAhHhquq8LmLoOaCAgtYoapziSYkhjpOMA&usqp=CAU",
+    "cantidad": 3,
+    "producto": "Camiseta",
+    "valor": 40000,
+    "total": 120000
+  }
+]

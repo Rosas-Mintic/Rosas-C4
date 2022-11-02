@@ -1,0 +1,40 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius:5px 5px 5px 5px;
+    overflow: hidden;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.container{
+    align-self: center;
+}
