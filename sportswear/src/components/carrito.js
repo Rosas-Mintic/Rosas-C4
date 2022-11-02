@@ -18,9 +18,16 @@ export function Carrito() {
             )
         }
     )
-
+/*
+    var datos= DisplayData
+    datos.forEach((item, index, arr) => {console.log(item)
+        
+    });
+    
+*/
     return (
         <Fragment>
+            
             <BarraNavegacionClientes />
             <div class="container">
                 <h1>Carrito de compras</h1>

@@ -38,3 +38,8 @@ tbody tr:nth-child(even) {
 .container{
     align-self: center;
 }
+
+h1 {
+    text-align: center;
+}
+

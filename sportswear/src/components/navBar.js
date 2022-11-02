@@ -13,8 +13,7 @@ export function BarraNavegacionAdmin() {
         <Link to="/CrearProductosAdmin" >Crear Productos </Link>
         <Link to="/ModificarProductosAdmin" >Modificar Productos</Link>
         <Link to="/ListaVentasAdmin" >Ventas</Link>
-        <Link to="/ListaUsuariosAdmin" >Usuarios</Link>
-        <Link to="/CrearUsuariosAdmin" >Crear Usuarios</Link>
+        
       </div>
 
 
